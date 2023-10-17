@@ -1,0 +1,331 @@
+
+header
+{
+    background-color: rgb(119, 9, 95);
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+
+h1
+{
+    font-size: 36px;
+}
+
+.welcomeMessage
+{
+    text-align: center;
+}
+
+.Ques
+{
+    padding: 20px;
+    font-family: 'Young Serif';
+}
+
+.postbox
+{
+    margin: 10px;
+}
+
+body 
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+    background-color: #df88d86c;
+    overflow-x: hidden;
+}
+
+.left
+{
+    display: flex;
+}
+.right
+{
+    display: flex;
+}
+
+.logo
+{
+    display: flex;
+    background-image: url("logo-centre-circle.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+.main 
+{
+    margin: 0px;
+    padding: 0px;
+    height: 98vh;
+    width: 98vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.bg
+{
+    background-image: url("bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar
+{
+    width: 100%;
+    padding: 5px;
+    z-index: 4;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  rgb(200, 64, 193);
+}
+
+.navbar button
+{
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.navbar-elements
+{
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px unset;
+    color: rgb(0, 0, 0);
+    font-size: large;
+}
+
+.body a 
+{
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: white;
+}
+
+a 
+{
+    text-decoration: none;
+    color: unset;
+}
+
+.body
+{
+    margin: 20px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.center
+{
+    display:flex; 
+    justify-content:center; 
+    align-items:center
+}
+
+.hidden
+{
+    display: none;
+}
+
+.blur
+{
+    filter: blur(5px);
+}
+
+.idk
+{
+    z-index: 2;
+    height: 98%;
+    width: 98%;
+    opacity: .0;
+    position: absolute;
+}
+
+
+.links
+{
+    display: flex;
+    height: 50px;
+    width:50px;
+}
+
+.a
+{
+    margin: 5px;
+    display: flex;
+    border:0px solid rgb(0, 0, 0);
+    border-radius: 37px;
+    height: 70px;
+    width:70px;
+    justify-content:center;
+    align-items:center;
+}
+
+.img
+{
+    display:flex;
+    height: 50px;
+    width:50px;
+}
+
+.contactus
+{
+    z-index: 6;
+    top: 50vh;
+    left: 50vw;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    padding: 50px;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 100vh 60px black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 92%;
+    background-color: rgba(75, 40, 217, 0.558);
+}
+
+.contactus a
+{
+    margin: 5px;
+    display: flex;
+    border:2px solid rgb(0, 0, 0);
+    border-radius: 37px;
+    height: 70px;
+    width:70px;
+    justify-content:center;
+    align-items:center;
+    background-color: white;
+}
+
+.contactus a img
+{
+    display:flex;
+    height: 50px;
+    width:50px;
+}
+
+.content
+{
+    display: flex;
+    width: 98%;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.footer{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+#Alonear
+{
+    
+    font-size: 50px;
+    font-family: 'Young Serif';
+}
+
+.dharti
+{
+    z-index: 3;
+    position: absolute;
+    display: flex;
+    align-self: flex-end;
+    top: 0%;
+    margin-top: 250px;
+}
+.dharti img{
+    
+    height: 450px;
+    width: 450px;
+}
+
+.join-us
+{
+    display: flex;
+}
+
+.left p 
+{
+    align-self: flex-start; 
+    margin-left: 10px;
+}
+
+#welcometo {
+    font-family: 'Roboto Slab';
+}
+
+.s {
+    font-family: 'Young Serif';
+}
+
+.insta
+{
+    margin-left:5px;font-family: 'Roboto Slab';
+}
+
+.yt
+{
+    font-family: 'Young Serif';margin-left:15px;
+}
+
+#postbox1
+{
+    display: flex; flex-direction: row;
+}
+
+.yt-vids
+{
+    display: flex; justify-content:space-between; margin:20px; margin-top:-20px; margin-left:-20px;
+}
+#Joinways
+{
+    font-family: 'Rubik';font-size: 30px;
+}
+
+.serif
+{
+    font-family: 'Young Serif';
+}
+
+.queries
+{
+    display: flex; flex-direction:column; margin:10px
+}
+
+.socials
+{
+    display: flex; flex-direction: column; margin:10px;
+}
+
+.flex
+{
+    display: flex;
+}
+
+.form
+{
+    color: #3897f0; background-color: rgba(255, 255, 240, 0); border: 0px;
+}
